@@ -1,5 +1,6 @@
 function addElementToBeginningOfArray(arr, x){
-  new_arr = arr.unshift(x);
+  new_arr = arr;
+  new_arr.unshift(x);
   return new_arr;
 }
 
